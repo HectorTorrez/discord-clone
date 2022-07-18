@@ -1,0 +1,40 @@
+.third-container {
+    display: flex;
+    width: 100%;
+    background-color: #F6F6F6;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.third-content {
+    justify-content: center;
+    align-items: center;
+    padding: 56px 24px;
+    flex-direction: row-reverse;
+}
+
+.third-content img {
+    width: 100%;
+}
+
+.third-description {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.third-description h2 {
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 26px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.third-description div {
+    font-size: 16px;
+    margin: 24px 0px 0px 0px;
+    line-height: 1.625;
+    font-family: 'Rubik', sans-serif;
+}
